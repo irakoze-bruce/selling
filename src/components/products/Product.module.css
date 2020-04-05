@@ -1,0 +1,78 @@
+/** @format */
+
+.Product {
+  width: 1000px;
+  margin: auto;
+}
+
+.ProductText {
+  margin: 4em auto;
+  text-align: center;
+  width: 500px;
+}
+
+.ProductText h4,
+p {
+  color: gray;
+  line-height: 30px;
+}
+
+.ProductContainer {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.ProductBox {
+  margin-right: 20px;
+}
+
+.ProductItem {
+  background: rgb(231, 229, 229);
+  text-align: center;
+  margin-top: -1.2em;
+}
+
+.ProductItem p {
+  color: black;
+}
+.ProductContainer img {
+  width: 320px;
+}
+
+.itemsHeart {
+  color: red;
+  margin: 0 8px 0 8px;
+}
+
+.itemStart {
+  color: #f16821;
+  margin: 0px 8px 0 8px;
+}
+
+.ProductBtn button {
+  margin-right: 20px;
+  padding: 0.7em 2em;
+  margin-bottom: 2em;
+  font-weight: bold;
+}
+
+.ProductBtn button:hover {
+  background-color: black;
+  color: white;
+}
+
+.ProductAboutBox {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.ProductImg img {
+  width: 400px;
+  margin: auto;
+}
+
+.ProductAboutText {
+  width: 400px;
+}

@@ -1,0 +1,22 @@
+/** @format */
+
+.Menu nav {
+  display: flex;
+}
+
+.Link {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.Menu Link {
+  text-decoration: none;
+}
+
+.Menu li {
+  color: black;
+  font-weight: bold;
+  list-style: none;
+  margin: 2.3em 0px 1em 40px;
+  text-decoration: none;
+}

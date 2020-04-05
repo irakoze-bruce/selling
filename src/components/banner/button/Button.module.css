@@ -1,0 +1,19 @@
+/** @format */
+.Button {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.btn {
+  margin-right: 1em;
+  padding: 1em 2em;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background: inherit;
+  color: black;
+}

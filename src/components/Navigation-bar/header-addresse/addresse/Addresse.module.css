@@ -1,0 +1,22 @@
+/** @format */
+
+.Addresse {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.number a,
+.email a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.email {
+  margin-left: 20px;
+}
+.faIcon {
+  color: #f16821;
+  margin: -5px 5px;
+  font-size: 20px;
+}

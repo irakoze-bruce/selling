@@ -1,0 +1,23 @@
+/** @format */
+
+.Logo {
+  margin-top: -30px;
+}
+.Logo h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+.Link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Logo span {
+  width: 8px;
+  height: 8px;
+  background-color: #f16821;
+  position: absolute;
+  top: 18%;
+}

@@ -1,0 +1,7 @@
+/** @format */
+
+.HeaderMenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 239, 239);
+}
