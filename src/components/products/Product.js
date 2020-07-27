@@ -7,11 +7,10 @@ import image2 from "../../images/model_2.png";
 import image3 from "../../images/model_3.png";
 import { FaStar, FaHeart } from "react-icons/fa";
 import image4 from "../../images/model_1.png";
-import image5 from "../../images/product_1_bg.jpg";
 
 function Product() {
   return (
-    <div className={style.Product}>
+    <div className={style.Product} data-aos='fade-up' data-aos-duration='2000'>
       <div className={style.ProductText}>
         <h4>POPULAR PRODUCTS</h4>
         <h1>Our Products</h1>
@@ -23,7 +22,11 @@ function Product() {
         </p>
       </div>
 
-      <div className={style.ProductContainer}>
+      <div
+        className={style.ProductContainer}
+        data-aos='fade-up'
+        data-aos-duration='2000'
+      >
         <div className={style.ProductBox}>
           <img src={image1} alt='image1' />
 
@@ -94,7 +97,11 @@ function Product() {
         </div>
       </div>
 
-      <div className={style.ProductContainer}>
+      <div
+        className={style.ProductContainer}
+        data-aos='fade-up'
+        data-aos-duration='2000'
+      >
         <div className={style.ProductBox}>
           <img src={image3} alt='image3' />
 

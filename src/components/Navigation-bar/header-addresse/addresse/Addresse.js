@@ -2,14 +2,7 @@
 
 import React from "react";
 import style from "./Addresse.module.css";
-import { FaAddressBook } from "react-icons";
-import {
-  FaFacebook,
-  FaEmber,
-  FaEnvelope,
-  FaTelegram,
-  FaPhone,
-} from "react-icons/fa";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Addresse() {
   return (
@@ -26,7 +19,7 @@ function Addresse() {
         <a href='/'>
           <p className={style.icon}>
             <FaEnvelope className={style.faIcon} />
-            <span>Selling20@gmail.com</span>
+            <span>irabruce20@gmail.com</span>
           </p>
         </a>
       </div>
